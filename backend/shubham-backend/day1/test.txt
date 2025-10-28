@@ -1,0 +1,39 @@
+deepanshu sharma
+Learn NodeJs
+
+const { log } = require("console");
+const fs = require("fs")
+
+
+//--async file create
+// fs.writeFile("test.txt", "deepanshu sharma" ,(err)=>{
+//      console.log("done");
+// })
+
+//sync  file create
+//fs.writeFileSync("text.txt","deepanshusharma")
+
+ 
+//async file read 
+// fs.readFile("text.txt", "utf-8",(err,data)=>{
+//     console.log(data);
+// })
+
+//  sync file read 
+// const data=fs.readFileSync("test.txt","utf-8")
+// console.log(data);
+
+// async update 
+
+// fs.appendFile("test.txt", "\nLearn NodeJs",(err)=>{
+//     console.log("done");
+// })
+
+//sync update
+// fs.appendFileSync("text.txt","\nrahul")
+
+// async delete 
+
+// fs.unlink("text.txt",()=>{
+//     console.log("deleted");
+// })
